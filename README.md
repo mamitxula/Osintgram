@@ -49,6 +49,11 @@ You can find detailed commands usage [here](doc/COMMANDS.md).
 [Commands](doc/COMMANDS.md) |
 [CHANGELOG](doc/CHANGELOG.md)
 
+## FAQ
+1. **Can I access the contents of a private profile?** No, you cannot get information on private profiles. You can only get information from a public profile or a profile you follow. The tools that claim to be successful are scams!
+2. **What is and how I can bypass the `challenge_required` error?** The `challenge_required` error means that Instagram notice a suspicious behavior on your profile, so needs to check if you are a real person or a bot. To avoid this you should follow the suggested link and complete the required operation (insert a code, confirm email, etc)
+
+
 ## Installation ⚙️
 
 1. Fork/Clone/Download this repo
@@ -77,6 +82,10 @@ You can find detailed commands usage [here](doc/COMMANDS.md).
 
     * As an interactive prompt `python3 main.py <target username>`
     * Or execute your command straight away `python3 main.py <target username> --command <command>`
+    
+### Use Osintgram v2 (beta)
+You can use Osintgram2 beta just switching to `v2` [branch](https://github.com/Datalux/Osintgram/tree/v2).
+The v2 has some improvements and faster with a new command execution interface. Try it just running `git checkout v2`.
 
 ## Docker Quick Start 🐳
 
